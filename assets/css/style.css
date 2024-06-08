@@ -106,19 +106,6 @@ button {
   rotate: 180deg;
 }
 
-/* Header */
-.header.fixed {
-  position: sticky;
-  top: -20px;
-  z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.header {
-  /* min-height: 100vh; */
-  background: var(--header-bg);
-}
-
 .logo {
   position: relative;
   display: inline-flex;
@@ -166,7 +153,20 @@ button {
   font-weight: 300;
 }
 
-/* Header top */
+/* Header */
+/* Header */
+.header {
+  /* min-height: 100vh; */
+  background: var(--header-bg);
+}
+
+.header.fixed {
+  position: sticky;
+  top: -20px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .header-body {
   padding: 30px 0 10px;
   display: flex;
